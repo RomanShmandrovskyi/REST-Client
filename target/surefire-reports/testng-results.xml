@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="REST Web Service Tests" duration-ms="304" started-at="2018-03-10T21:56:12Z" finished-at="2018-03-10T21:56:13Z">
+    <groups>
+    </groups>
+    <test name="REST Client Test" duration-ms="304" started-at="2018-03-10T21:56:12Z" finished-at="2018-03-10T21:56:13Z">
+      <class name="RESTWebClientTest">
+        <test-method status="PASS" signature="addNewWalletTest()[pri:0, instance:RESTWebClientTest@400cff1a]" name="addNewWalletTest" duration-ms="147" started-at="2018-03-10T23:56:12Z" finished-at="2018-03-10T23:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewWalletTest -->
+        <test-method status="PASS" signature="buyExpensiveGoodTest()[pri:0, instance:RESTWebClientTest@400cff1a]" name="buyExpensiveGoodTest" duration-ms="19" started-at="2018-03-10T23:56:13Z" finished-at="2018-03-10T23:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyExpensiveGoodTest -->
+        <test-method status="PASS" signature="buyGoodTest()[pri:0, instance:RESTWebClientTest@400cff1a]" name="buyGoodTest" duration-ms="16" started-at="2018-03-10T23:56:13Z" finished-at="2018-03-10T23:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyGoodTest -->
+        <test-method status="PASS" signature="deleteWalletById()[pri:0, instance:RESTWebClientTest@400cff1a]" name="deleteWalletById" duration-ms="16" started-at="2018-03-10T23:56:13Z" finished-at="2018-03-10T23:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteWalletById -->
+        <test-method status="PASS" signature="getAllWalletsTest()[pri:0, instance:RESTWebClientTest@400cff1a]" name="getAllWalletsTest" duration-ms="9" started-at="2018-03-10T23:56:13Z" finished-at="2018-03-10T23:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllWalletsTest -->
+        <test-method status="PASS" signature="getBalanceTest()[pri:0, instance:RESTWebClientTest@400cff1a]" name="getBalanceTest" duration-ms="13" started-at="2018-03-10T23:56:13Z" finished-at="2018-03-10T23:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBalanceTest -->
+        <test-method status="PASS" signature="getNotExistWalletTest()[pri:0, instance:RESTWebClientTest@400cff1a]" name="getNotExistWalletTest" duration-ms="21" started-at="2018-03-10T23:56:13Z" finished-at="2018-03-10T23:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNotExistWalletTest -->
+        <test-method status="PASS" signature="getWalletTest()[pri:0, instance:RESTWebClientTest@400cff1a]" name="getWalletTest" duration-ms="4" started-at="2018-03-10T23:56:13Z" finished-at="2018-03-10T23:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWalletTest -->
+        <test-method status="PASS" signature="putMoneyOnWalletTest()[pri:0, instance:RESTWebClientTest@400cff1a]" name="putMoneyOnWalletTest" duration-ms="19" started-at="2018-03-10T23:56:13Z" finished-at="2018-03-10T23:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putMoneyOnWalletTest -->
+        <test-method status="PASS" signature="putToMuchMoneyOnWalletTest()[pri:0, instance:RESTWebClientTest@400cff1a]" name="putToMuchMoneyOnWalletTest" duration-ms="15" started-at="2018-03-10T23:56:13Z" finished-at="2018-03-10T23:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putToMuchMoneyOnWalletTest -->
+      </class> <!-- RESTWebClientTest -->
+    </test> <!-- REST Client Test -->
+  </suite> <!-- REST Web Service Tests -->
+</testng-results>

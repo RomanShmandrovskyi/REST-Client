@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-REST_Web_Service_Tests">
+              <span class="suite-name border-passed">REST Web Service Tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-REST_Web_Service_Tests">
+                    <span>C:\Users\Home\Desktop\епам\tasks\automation\web services\REST\RESTClient\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-REST_Web_Service_Tests">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-REST_Web_Service_Tests">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-REST_Web_Service_Tests">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-REST_Web_Service_Tests">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-REST_Web_Service_Tests">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-REST_Web_Service_Tests">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-REST_Web_Service_Tests" class="hide-methods passed suite-REST_Web_Service_Tests"> (hide)</a> <!-- hide-methods passed suite-REST_Web_Service_Tests -->
+                      <a href="#" panel-name="suite-REST_Web_Service_Tests" class="show-methods passed suite-REST_Web_Service_Tests"> (show)</a> <!-- show-methods passed suite-REST_Web_Service_Tests -->
+                    </span>
+                    <div class="method-list-content passed suite-REST_Web_Service_Tests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_Web_Service_Tests" title="RESTWebClientTest" hash-for-method="addNewWalletTest">addNewWalletTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_Web_Service_Tests" title="RESTWebClientTest" hash-for-method="buyExpensiveGoodTest">buyExpensiveGoodTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_Web_Service_Tests" title="RESTWebClientTest" hash-for-method="buyGoodTest">buyGoodTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_Web_Service_Tests" title="RESTWebClientTest" hash-for-method="deleteWalletById">deleteWalletById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_Web_Service_Tests" title="RESTWebClientTest" hash-for-method="getAllWalletsTest">getAllWalletsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_Web_Service_Tests" title="RESTWebClientTest" hash-for-method="getBalanceTest">getBalanceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_Web_Service_Tests" title="RESTWebClientTest" hash-for-method="getNotExistWalletTest">getNotExistWalletTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_Web_Service_Tests" title="RESTWebClientTest" hash-for-method="getWalletTest">getWalletTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_Web_Service_Tests" title="RESTWebClientTest" hash-for-method="putMoneyOnWalletTest">putMoneyOnWalletTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-REST_Web_Service_Tests" title="RESTWebClientTest" hash-for-method="putToMuchMoneyOnWalletTest">putToMuchMoneyOnWalletTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-REST_Web_Service_Tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-REST_Web_Service_Tests" class="panel REST_Web_Service_Tests">
+          <div class="suite-REST_Web_Service_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RESTWebClientTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewWalletTest">
+                  </a> <!-- addNewWalletTest -->
+                  <span class="method-name">addNewWalletTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyExpensiveGoodTest">
+                  </a> <!-- buyExpensiveGoodTest -->
+                  <span class="method-name">buyExpensiveGoodTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyGoodTest">
+                  </a> <!-- buyGoodTest -->
+                  <span class="method-name">buyGoodTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteWalletById">
+                  </a> <!-- deleteWalletById -->
+                  <span class="method-name">deleteWalletById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllWalletsTest">
+                  </a> <!-- getAllWalletsTest -->
+                  <span class="method-name">getAllWalletsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getBalanceTest">
+                  </a> <!-- getBalanceTest -->
+                  <span class="method-name">getBalanceTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getNotExistWalletTest">
+                  </a> <!-- getNotExistWalletTest -->
+                  <span class="method-name">getNotExistWalletTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getWalletTest">
+                  </a> <!-- getWalletTest -->
+                  <span class="method-name">getWalletTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="putMoneyOnWalletTest">
+                  </a> <!-- putMoneyOnWalletTest -->
+                  <span class="method-name">putMoneyOnWalletTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="putToMuchMoneyOnWalletTest">
+                  </a> <!-- putToMuchMoneyOnWalletTest -->
+                  <span class="method-name">putToMuchMoneyOnWalletTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-REST_Web_Service_Tests-class-passed -->
+        </div> <!-- panel REST_Web_Service_Tests -->
+        <div panel-name="test-xml-REST_Web_Service_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Home\Desktop\епам\tasks\automation\web services\REST\RESTClient\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;REST Web Service Tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;REST Client Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;RESTWebClientTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- REST Client Test --&gt;
+&lt;/suite&gt; &lt;!-- REST Web Service Tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-REST_Web_Service_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for REST Web Service Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">REST Client Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-REST_Web_Service_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for REST Web Service Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-REST_Web_Service_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for REST Web Service Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_REST_Web_Service_Tests');
+function tableData_REST_Web_Service_Tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addNewWalletTest')
+data.setCell(0, 2, 'RESTWebClientTest')
+data.setCell(0, 3, 147);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getNotExistWalletTest')
+data.setCell(1, 2, 'RESTWebClientTest')
+data.setCell(1, 3, 21);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'putMoneyOnWalletTest')
+data.setCell(2, 2, 'RESTWebClientTest')
+data.setCell(2, 3, 19);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'buyExpensiveGoodTest')
+data.setCell(3, 2, 'RESTWebClientTest')
+data.setCell(3, 3, 19);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'buyGoodTest')
+data.setCell(4, 2, 'RESTWebClientTest')
+data.setCell(4, 3, 16);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'deleteWalletById')
+data.setCell(5, 2, 'RESTWebClientTest')
+data.setCell(5, 3, 16);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'putToMuchMoneyOnWalletTest')
+data.setCell(6, 2, 'RESTWebClientTest')
+data.setCell(6, 3, 15);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getBalanceTest')
+data.setCell(7, 2, 'RESTWebClientTest')
+data.setCell(7, 3, 13);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getAllWalletsTest')
+data.setCell(8, 2, 'RESTWebClientTest')
+data.setCell(8, 3, 9);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'getWalletTest')
+data.setCell(9, 2, 'RESTWebClientTest')
+data.setCell(9, 3, 4);
+window.suiteTableData['REST_Web_Service_Tests']= { tableData: data, tableDiv: 'times-div-REST_Web_Service_Tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 279 ms</span>
+              <div id="times-div-REST_Web_Service_Tests">
+              </div> <!-- times-div-REST_Web_Service_Tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-REST_Web_Service_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for REST Web Service Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-REST_Web_Service_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-REST_Web_Service_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">RESTWebClientTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addNewWalletTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">buyExpensiveGoodTest</span>
+                <span class="method-start">148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">buyGoodTest</span>
+                <span class="method-start">168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteWalletById</span>
+                <span class="method-start">185 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getAllWalletsTest</span>
+                <span class="method-start">202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getBalanceTest</span>
+                <span class="method-start">215 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getNotExistWalletTest</span>
+                <span class="method-start">228 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getWalletTest</span>
+                <span class="method-start">250 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">putMoneyOnWalletTest</span>
+                <span class="method-start">254 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">putToMuchMoneyOnWalletTest</span>
+                <span class="method-start">274 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
